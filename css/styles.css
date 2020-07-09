@@ -1,14 +1,12 @@
 /* шрифты: 
 Raleway - bold
-
 Roboto - bold
 Roboto - medium
 Roboto - black
 Roboto - regular
 */
 
-/* цвета шрифтов:
-
+/* 
 Синий:
 color: #2196F3;
 Черный:
@@ -17,14 +15,22 @@ color: #212121;
 Серый:
 color: #757575;
 Белый:
-color: #FFFFFF;
+color: #FFFFFF; 
 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-text-color: #000000;
+  --secondary-text-color: #ffffff;
+}
 
 body {
   background-color: #e5e5e5;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -44,11 +50,11 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-text-color);
 }
 
 .logo > span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigation-list-link,
@@ -57,18 +63,18 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-address:hover,
 .header-address:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-address {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* ПОРТФОЛИО */
@@ -81,7 +87,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-text-color);
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -92,7 +98,7 @@ body {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .portfolio-subtitle {
@@ -102,17 +108,17 @@ body {
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .portfolio-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   /* or 156% */
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 /* HERO СЕКЦИЯ */
@@ -125,7 +131,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 .modal-btn {
@@ -137,8 +143,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
 }
 
 /* О НАС */
@@ -149,7 +155,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .description {
@@ -157,7 +163,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
@@ -168,7 +174,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .about-subtitle {
@@ -178,7 +184,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 /* НАША КОМАНДА */
@@ -190,7 +196,7 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .team-description {
@@ -200,19 +206,19 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .social-links-item:hover,
 .social-links-item:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
 
 .client-list-item:hover,
 .client-list-item:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*не понимаю почему не работают ховер и фокус для клиентов*/
@@ -226,11 +232,11 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 .footer-logo > span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-address-item .address-link {
@@ -241,7 +247,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
 
 .footer-addres-link {
@@ -249,7 +255,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -261,5 +267,5 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-text-color);
 }
