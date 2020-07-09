@@ -1,0 +1,265 @@
+/* шрифты: 
+Raleway - bold
+
+Roboto - bold
+Roboto - medium
+Roboto - black
+Roboto - regular
+*/
+
+/* цвета шрифтов:
+
+Синий:
+color: #2196F3;
+Черный:
+color: #000000;
+color: #212121;
+Серый:
+color: #757575;
+Белый:
+color: #FFFFFF;
+*/
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #757575;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*  ШАПКА САЙТА */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo > span {
+  color: #2196f3;
+}
+
+.navigation-list-link,
+.header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-address:hover,
+.header-address:focus {
+  color: #2196f3;
+}
+
+.header-address {
+  color: #757575;
+}
+
+/* ПОРТФОЛИО */
+
+.nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.portfolio-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  /* or 156% */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+/* HERO СЕКЦИЯ */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* О НАС */
+
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* НАША КОМАНДА */
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.social-links-item:hover,
+.social-links-item:focus {
+  color: #2196f3;
+}
+
+/* ПОСТОЯННЫЕ КЛИЕНТЫ */
+
+.client-list-item:hover,
+.client-list-item:focus {
+  color: #2196f3;
+}
+
+/*не понимаю почему не работают ховер и фокус для клиентов*/
+
+/* ПОДВАЛ */
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-logo > span {
+  color: #2196f3;
+}
+
+.footer-address-item .address-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-addres-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
