@@ -73,6 +73,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation-list .link.current {
+  color: var(--accent-color);
+}
+
 .header-address {
   color: var(--primary-text-color);
 }
